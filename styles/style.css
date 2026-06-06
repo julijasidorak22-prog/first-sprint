@@ -11,6 +11,7 @@
   display: flex;
   justify-self: stretch;
   width: 100%;
+  font-weight: 400;
 }
 
 .header__links-list {
@@ -77,7 +78,6 @@
   flex-direction: column;
   min-height: 757px;
   width: 100%;
-  max-width: 1100px;
   margin: 0 auto;
   padding: 165px 50px 50px;
 }
@@ -116,11 +116,11 @@
   align-self: flex-start;
 }
 
-.aligned-text_center {  
+.aligned-text_center {
   text-align: center;
 }
 
-.aligned-text_right { 
+.aligned-text_right {
   align-self: flex-end;
 }
 
@@ -163,7 +163,7 @@
   text-decoration: none;
 }
 
-.lots { 
+.lots {
   padding: 180px 24px 0;
   width: 100%;
 } 
@@ -246,7 +246,7 @@
   display: inline-block;
 }
 
-.about { 
+.about {
   padding: 120px 24px 180px;
   display: grid;
   grid-template-columns: 334px auto;
@@ -339,7 +339,6 @@
   line-height: 100%;
   color: black;
   letter-spacing: 0;
-  line-height: 100%;
  }
 
  .footer__menu-list-item {
